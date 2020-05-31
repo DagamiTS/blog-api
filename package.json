@@ -1,0 +1,25 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DagamiTS/blog-server.git"
+  },
+  "author": "Denis Efremov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DagamiTS/blog-server/issues"
+  },
+  "homepage": "https://github.com/DagamiTS/blog-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
